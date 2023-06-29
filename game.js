@@ -42,11 +42,8 @@ window.onload = function() {
         if (sY <= 0){
             dy = 1;
             clor = "yellow";
-        }
-
-        
+        }  
         window.requestAnimationFrame(draw);
-        
     }
     function drawRect(x,y,w,h,b,bw,c){
 
