@@ -5,7 +5,8 @@ window.onload = function(){
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
 
-    canvas.addEventListener("click",actionMove)
+
+    //implement clicking functions
 
     //position of the player
     let PlayerX = 0;
